@@ -1,7 +1,7 @@
 {
   "platform": "laclib",
   "blasLib": "OpenBLAS",
-  "matrixName": "inline1",
+  "matrixName": "inline_1",
   "read": {
     "timeReadNs": 6384601576,
     "timeReadStr": "6.3846s"
@@ -22,6 +22,8 @@
     "pctIncWorkspace": 120,
     "maxWorkMemory": 30000,
     "openmpNumThreads": 2,
+    "usedOrdering": "Metis",
+    "usedScaling": "Auto",
     "doneInitialize": true,
     "doneFactorize": true,
     "ndim": 503712,

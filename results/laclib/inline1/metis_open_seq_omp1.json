@@ -1,10 +1,10 @@
 {
   "platform": "laclib",
   "blasLib": "OpenBLAS",
-  "matrixName": "inline1",
+  "matrixName": "inline_1",
   "read": {
-    "timeReadNs": 6369707168,
-    "timeReadStr": "6.36971s"
+    "timeReadNs": 6364682583,
+    "timeReadStr": "6.36468s"
   },
   "triplet": {
     "nrow": 503712,
@@ -21,25 +21,27 @@
     "scaling": "Auto",
     "pctIncWorkspace": 120,
     "maxWorkMemory": 30000,
-    "openmpNumThreads": 0,
+    "openmpNumThreads": 1,
+    "usedOrdering": "Metis",
+    "usedScaling": "Auto",
     "doneInitialize": true,
     "doneFactorize": true,
     "ndim": 503712,
-    "timeInitNs": 3445317967,
-    "timeFactNs": 6318709850,
-    "timeSolveNs": 356888338,
-    "timeTotalNs": 10118634239,
-    "timeInitStr": "3.44532s",
-    "timeFactStr": "6.31871s",
-    "timeSolveStr": "356.888ms",
-    "timeTotalStr": "10.1186s"
+    "timeInitNs": 3438768565,
+    "timeFactNs": 6362515560,
+    "timeSolveNs": 382337803,
+    "timeTotalNs": 10181349893,
+    "timeInitStr": "3.43877s",
+    "timeFactStr": "6.36252s",
+    "timeSolveStr": "382.338ms",
+    "timeTotalStr": "10.1813s"
   },
   "verify": {
     "maxAbsA": 114603634.398607,
     "maxAbsAx": 1.00000032037497,
     "maxAbsDiff": 4.17259116147761e-7,
     "relativeError": 3.64088900580227e-15,
-    "timeCheckNs": 57359063,
-    "timeCheckStr": "57.3591ms"
+    "timeCheckNs": 58072630,
+    "timeCheckStr": "58.0726ms"
   }
 }

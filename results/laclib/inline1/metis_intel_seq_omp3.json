@@ -1,7 +1,7 @@
 {
   "platform": "laclib",
   "blasLib": "IntelMKL",
-  "matrixName": "inline1",
+  "matrixName": "inline_1",
   "read": {
     "timeReadNs": 6295491428,
     "timeReadStr": "6.29549s"
@@ -22,6 +22,8 @@
     "pctIncWorkspace": 120,
     "maxWorkMemory": 30000,
     "openmpNumThreads": 3,
+    "usedOrdering": "Metis",
+    "usedScaling": "Auto",
     "doneInitialize": true,
     "doneFactorize": true,
     "ndim": 503712,
