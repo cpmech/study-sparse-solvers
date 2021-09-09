@@ -3,8 +3,8 @@
   "blasLib": "OpenBLAS",
   "matrixName": "pre2",
   "read": {
-    "timeReadNs": 862142100,
-    "timeReadStr": "862.1421ms"
+    "timeReadNs": 880091076,
+    "timeReadStr": "880.091076ms"
   },
   "triplet": {
     "nrow": 659033,
@@ -17,7 +17,7 @@
   "solver": {
     "solverKind": "MMP-local",
     "symmetry": "No",
-    "ordering": "Metis",
+    "ordering": "Auto",
     "scaling": "Auto",
     "pctIncWorkspace": 100,
     "maxWorkMemory": 0,
@@ -27,21 +27,21 @@
     "doneInitialize": true,
     "doneFactorize": true,
     "ndim": 659033,
-    "timeInitNs": 5174374651,
-    "timeFactNs": 11229578641,
-    "timeSolveNs": 1957212247,
-    "timeTotalNs": 18361165539,
-    "timeInitStr": "5.174374651s",
-    "timeFactStr": "11.229578641s",
-    "timeSolveStr": "1.957212247s",
-    "timeTotalStr": "18.361165539s"
+    "timeInitNs": 5148286666,
+    "timeFactNs": 5134361362,
+    "timeSolveNs": 912697746,
+    "timeTotalNs": 11195345774,
+    "timeInitStr": "5.148286666s",
+    "timeFactStr": "5.134361362s",
+    "timeSolveStr": "912.697746ms",
+    "timeTotalStr": "11.195345774s"
   },
   "verify": {
     "maxAbsA": 14777170000,
-    "maxAbsAx": 1.0000121593475342,
-    "maxAbsDiff": 1.2159347534179688e-5,
-    "relativeError": 8.228468328750931e-16,
-    "timeCheckNs": 30815248,
-    "timeCheckStr": "30.815248ms"
+    "maxAbsAx": 1.0000131130218506,
+    "maxAbsDiff": 1.430511474609375e-5,
+    "relativeError": 9.680550975001095e-16,
+    "timeCheckNs": 15627540,
+    "timeCheckStr": "15.62754ms"
   }
 }
