@@ -1,0 +1,47 @@
+{
+  "platform": "russell",
+  "blasLib": "OpenBLAS",
+  "matrixName": "zdjac3",
+  "read": {
+    "timeReadNs": 287034658,
+    "timeReadStr": "287.034658ms"
+  },
+  "triplet": {
+    "nrow": 22835,
+    "ncol": 22835,
+    "pos": 1916152,
+    "max": 1916152,
+    "symPart": false,
+    "symFull": false
+  },
+  "solver": {
+    "solverKind": "UMF",
+    "symmetry": "No",
+    "ordering": "Auto",
+    "scaling": "Auto",
+    "pctIncWorkspace": 100,
+    "maxWorkMemory": 0,
+    "openmpNumThreads": 1,
+    "usedOrdering": "Amd",
+    "usedScaling": "Sum",
+    "doneInitialize": true,
+    "doneFactorize": true,
+    "ndim": 22835,
+    "timeInitNs": 34275737,
+    "timeFactNs": 350147467,
+    "timeSolveNs": 20142636,
+    "timeTotalNs": 404565840,
+    "timeInitStr": "34.275737ms",
+    "timeFactStr": "350.147467ms",
+    "timeSolveStr": "20.142636ms",
+    "timeTotalStr": "404.56584ms"
+  },
+  "verify": {
+    "maxAbsA": 412487278626.7098,
+    "maxAbsAx": 1.0009765625,
+    "maxAbsDiff": 1.25e-1,
+    "relativeError": 3.030396486792474e-13,
+    "timeCheckNs": 3800743,
+    "timeCheckStr": "3.800743ms"
+  }
+}

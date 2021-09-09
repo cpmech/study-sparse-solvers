@@ -1,0 +1,47 @@
+{
+  "platform": "russell",
+  "blasLib": "OpenBLAS",
+  "matrixName": "maceconfwd500",
+  "read": {
+    "timeReadNs": 185858901,
+    "timeReadStr": "185.858901ms"
+  },
+  "triplet": {
+    "nrow": 206500,
+    "ncol": 206500,
+    "pos": 1273389,
+    "max": 1273389,
+    "symPart": false,
+    "symFull": false
+  },
+  "solver": {
+    "solverKind": "MMP",
+    "symmetry": "No",
+    "ordering": "Auto",
+    "scaling": "Auto",
+    "pctIncWorkspace": 100,
+    "maxWorkMemory": 0,
+    "openmpNumThreads": 1,
+    "usedOrdering": "Scotch",
+    "usedScaling": "Unknown",
+    "doneInitialize": true,
+    "doneFactorize": true,
+    "ndim": 206500,
+    "timeInitNs": 4568605861,
+    "timeFactNs": 1290144352,
+    "timeSolveNs": 79896278,
+    "timeTotalNs": 5938646491,
+    "timeInitStr": "4.568605861s",
+    "timeFactStr": "1.290144352s",
+    "timeSolveStr": "79.896278ms",
+    "timeTotalStr": "5.938646491s"
+  },
+  "verify": {
+    "maxAbsA": 145251.85420744,
+    "maxAbsAx": 126.1538987159729,
+    "maxAbsDiff": 1.271538987159729e2,
+    "relativeError": 8.753969029371401e-4,
+    "timeCheckNs": 2885130,
+    "timeCheckStr": "2.88513ms"
+  }
+}

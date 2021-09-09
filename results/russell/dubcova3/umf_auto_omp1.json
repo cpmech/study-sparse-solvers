@@ -1,0 +1,47 @@
+{
+  "platform": "russell",
+  "blasLib": "OpenBLAS",
+  "matrixName": "dubcova3",
+  "read": {
+    "timeReadNs": 329578958,
+    "timeReadStr": "329.578958ms"
+  },
+  "triplet": {
+    "nrow": 146689,
+    "ncol": 146689,
+    "pos": 3636649,
+    "max": 3783338,
+    "symPart": false,
+    "symFull": true
+  },
+  "solver": {
+    "solverKind": "UMF",
+    "symmetry": "General",
+    "ordering": "Auto",
+    "scaling": "Auto",
+    "pctIncWorkspace": 100,
+    "maxWorkMemory": 0,
+    "openmpNumThreads": 1,
+    "usedOrdering": "Amd",
+    "usedScaling": "Sum",
+    "doneInitialize": true,
+    "doneFactorize": true,
+    "ndim": 146689,
+    "timeInitNs": 61069725,
+    "timeFactNs": 591036489,
+    "timeSolveNs": 120315946,
+    "timeTotalNs": 772422160,
+    "timeInitStr": "61.069725ms",
+    "timeFactStr": "591.036489ms",
+    "timeSolveStr": "120.315946ms",
+    "timeTotalStr": "772.42216ms"
+  },
+  "verify": {
+    "maxAbsA": 2.666666666666677,
+    "maxAbsAx": 1.0000000000014815,
+    "maxAbsDiff": 1.4814816040598089e-12,
+    "relativeError": 4.0404043747085583e-13,
+    "timeCheckNs": 7645189,
+    "timeCheckStr": "7.645189ms"
+  }
+}

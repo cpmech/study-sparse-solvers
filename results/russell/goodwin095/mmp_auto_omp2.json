@@ -1,0 +1,47 @@
+{
+  "platform": "russell",
+  "blasLib": "OpenBLAS",
+  "matrixName": "goodwin095",
+  "read": {
+    "timeReadNs": 467229878,
+    "timeReadStr": "467.229878ms"
+  },
+  "triplet": {
+    "nrow": 100037,
+    "ncol": 100037,
+    "pos": 3226066,
+    "max": 3226066,
+    "symPart": false,
+    "symFull": false
+  },
+  "solver": {
+    "solverKind": "MMP-local",
+    "symmetry": "No",
+    "ordering": "Auto",
+    "scaling": "Auto",
+    "pctIncWorkspace": 100,
+    "maxWorkMemory": 0,
+    "openmpNumThreads": 2,
+    "usedOrdering": "Metis",
+    "usedScaling": "RowColIter",
+    "doneInitialize": true,
+    "doneFactorize": true,
+    "ndim": 100037,
+    "timeInitNs": 547852032,
+    "timeFactNs": 269472132,
+    "timeSolveNs": 49556856,
+    "timeTotalNs": 866881020,
+    "timeInitStr": "547.852032ms",
+    "timeFactStr": "269.472132ms",
+    "timeSolveStr": "49.556856ms",
+    "timeTotalStr": "866.88102ms"
+  },
+  "verify": {
+    "maxAbsA": 1,
+    "maxAbsAx": 1.0000000040018286,
+    "maxAbsDiff": 1.3010345356612163e-8,
+    "relativeError": 6.5051726783060815e-9,
+    "timeCheckNs": 6380411,
+    "timeCheckStr": "6.380411ms"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "platform": "russell",
+  "blasLib": "OpenBLAS",
+  "matrixName": "dubcova3",
+  "read": {
+    "timeReadNs": 309633061,
+    "timeReadStr": "309.633061ms"
+  },
+  "triplet": {
+    "nrow": 146689,
+    "ncol": 146689,
+    "pos": 1891669,
+    "max": 1891669,
+    "symPart": true,
+    "symFull": false
+  },
+  "solver": {
+    "solverKind": "MMP-local",
+    "symmetry": "General",
+    "ordering": "Auto",
+    "scaling": "Auto",
+    "pctIncWorkspace": 100,
+    "maxWorkMemory": 0,
+    "openmpNumThreads": 2,
+    "usedOrdering": "Metis",
+    "usedScaling": "RowColIter",
+    "doneInitialize": true,
+    "doneFactorize": true,
+    "ndim": 146689,
+    "timeInitNs": 715196734,
+    "timeFactNs": 313586096,
+    "timeSolveNs": 81060424,
+    "timeTotalNs": 1109843254,
+    "timeInitStr": "715.196734ms",
+    "timeFactStr": "313.586096ms",
+    "timeSolveStr": "81.060424ms",
+    "timeTotalStr": "1.109843254s"
+  },
+  "verify": {
+    "maxAbsA": 2.666666666666677,
+    "maxAbsAx": 1.0000000000022735,
+    "maxAbsDiff": 2.2735147098273956e-12,
+    "relativeError": 6.200494663165606e-13,
+    "timeCheckNs": 5539217,
+    "timeCheckStr": "5.539217ms"
+  }
+}
