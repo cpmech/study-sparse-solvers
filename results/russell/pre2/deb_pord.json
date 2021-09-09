@@ -1,0 +1,47 @@
+{
+  "platform": "russell",
+  "blasLib": "OpenBLAS",
+  "matrixName": "pre2",
+  "read": {
+    "timeReadNs": 884832136,
+    "timeReadStr": "884.832136ms"
+  },
+  "triplet": {
+    "nrow": 659033,
+    "ncol": 659033,
+    "pos": 5959282,
+    "max": 5959282,
+    "symPart": false,
+    "symFull": false
+  },
+  "solver": {
+    "solverKind": "MMP",
+    "symmetry": "No",
+    "ordering": "Pord (MMP-only, otherwise Auto)",
+    "scaling": "Auto",
+    "pctIncWorkspace": 100,
+    "maxWorkMemory": 0,
+    "openmpNumThreads": 1,
+    "usedOrdering": "Pord",
+    "usedScaling": "Unknown",
+    "doneInitialize": true,
+    "doneFactorize": true,
+    "ndim": 659033,
+    "timeInitNs": 6690023491,
+    "timeFactNs": 10415155733,
+    "timeSolveNs": 692219503,
+    "timeTotalNs": 17797398727,
+    "timeInitStr": "6.690023491s",
+    "timeFactStr": "10.415155733s",
+    "timeSolveStr": "692.219503ms",
+    "timeTotalStr": "17.797398727s"
+  },
+  "verify": {
+    "maxAbsA": 14777170000,
+    "maxAbsAx": 1.0000101327896118,
+    "maxAbsDiff": 1.049041748046875e-5,
+    "relativeError": 7.099070715000804e-16,
+    "timeCheckNs": 32505575,
+    "timeCheckStr": "32.505575ms"
+  }
+}
