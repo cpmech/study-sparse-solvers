@@ -1,0 +1,45 @@
+{
+  "platform": "laclib",
+  "blasLib": "OpenBLAS",
+  "matrixName": "inline1",
+  "read": {
+    "timeReadNs": 6369707168,
+    "timeReadStr": "6.36971s"
+  },
+  "triplet": {
+    "nrow": 503712,
+    "ncol": 503712,
+    "pos": 18660027,
+    "max": 18660027,
+    "symPart": true,
+    "symFull": false
+  },
+  "solver": {
+    "solverKind": "MMP",
+    "symmetry": "General",
+    "ordering": "Metis",
+    "scaling": "Auto",
+    "pctIncWorkspace": 120,
+    "maxWorkMemory": 30000,
+    "openmpNumThreads": 0,
+    "doneInitialize": true,
+    "doneFactorize": true,
+    "ndim": 503712,
+    "timeInitNs": 3445317967,
+    "timeFactNs": 6318709850,
+    "timeSolveNs": 356888338,
+    "timeTotalNs": 10118634239,
+    "timeInitStr": "3.44532s",
+    "timeFactStr": "6.31871s",
+    "timeSolveStr": "356.888ms",
+    "timeTotalStr": "10.1186s"
+  },
+  "verify": {
+    "maxAbsA": 114603634.398607,
+    "maxAbsAx": 1.00000032037497,
+    "maxAbsDiff": 4.17259116147761e-7,
+    "relativeError": 3.64088900580227e-15,
+    "timeCheckNs": 57359063,
+    "timeCheckStr": "57.3591ms"
+  }
+}

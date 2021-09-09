@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`readReport reads test report 1`] = `
+Object {
+  "matrixName": "bfwb62",
+  "platform": "russell",
+  "read": Object {
+    "timeReadNs": 88856,
+    "timeReadStr": "88.856µs",
+  },
+  "solver": Object {
+    "doneFactorize": true,
+    "doneInitialize": true,
+    "maxWorkMemory": 0,
+    "ndim": 62,
+    "openmpNumThreads": 1,
+    "ordering": "Auto",
+    "pctIncWorkspace": 100,
+    "scaling": "Auto",
+    "solverKind": "MMP",
+    "symmetry": "General",
+    "timeFactNs": 363737,
+    "timeFactStr": "363.737µs",
+    "timeInitNs": 240729,
+    "timeInitStr": "240.729µs",
+    "timeSolveNs": 275470,
+    "timeSolveStr": "275.47µs",
+    "timeTotalNs": 879936,
+    "timeTotalStr": "879.936µs",
+  },
+  "triplet": Object {
+    "max": 202,
+    "ncol": 62,
+    "nrow": 62,
+    "pos": 202,
+    "symFull": false,
+    "symPart": true,
+  },
+  "verify": Object {
+    "maxAbsA": 0.0001,
+    "maxAbsAx": 1.0000000000000007,
+    "maxAbsDiff": 6.661338147750939e-16,
+    "relativeError": 6.660672080542885e-16,
+    "timeCheckNs": 3818,
+    "timeCheckStr": "3.818µs",
+  },
+}
+`;

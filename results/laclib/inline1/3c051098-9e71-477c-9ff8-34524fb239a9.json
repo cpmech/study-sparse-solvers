@@ -1,0 +1,45 @@
+{
+  "platform": "laclib",
+  "blasLib": "IntelMKL",
+  "matrixName": "inline1",
+  "read": {
+    "timeReadNs": 6240639895,
+    "timeReadStr": "6.24064s"
+  },
+  "triplet": {
+    "nrow": 503712,
+    "ncol": 503712,
+    "pos": 18660027,
+    "max": 18660027,
+    "symPart": true,
+    "symFull": false
+  },
+  "solver": {
+    "solverKind": "MMP",
+    "symmetry": "General",
+    "ordering": "Metis",
+    "scaling": "Auto",
+    "pctIncWorkspace": 120,
+    "maxWorkMemory": 30000,
+    "openmpNumThreads": 0,
+    "doneInitialize": true,
+    "doneFactorize": true,
+    "ndim": 503712,
+    "timeInitNs": 3390427549,
+    "timeFactNs": 5599936087,
+    "timeSolveNs": 186776878,
+    "timeTotalNs": 9174501392,
+    "timeInitStr": "3.39043s",
+    "timeFactStr": "5.59994s",
+    "timeSolveStr": "186.777ms",
+    "timeTotalStr": "9.1745s"
+  },
+  "verify": {
+    "maxAbsA": 114603634.398607,
+    "maxAbsAx": 1.00000032410026,
+    "maxAbsDiff": 4.20957803726196e-7,
+    "relativeError": 3.67316274271795e-15,
+    "timeCheckNs": 51130610,
+    "timeCheckStr": "51.1306ms"
+  }
+}

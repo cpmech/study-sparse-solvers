@@ -1,0 +1,44 @@
+{
+  "platform": "russell",
+  "matrixName": "bfwb62",
+  "read": {
+    "timeReadNs": 88856,
+    "timeReadStr": "88.856µs"
+  },
+  "triplet": {
+    "nrow": 62,
+    "ncol": 62,
+    "pos": 202,
+    "max": 202,
+    "symPart": true,
+    "symFull": false
+  },
+  "solver": {
+    "solverKind": "MMP",
+    "symmetry": "General",
+    "ordering": "Auto",
+    "scaling": "Auto",
+    "pctIncWorkspace": 100,
+    "maxWorkMemory": 0,
+    "openmpNumThreads": 1,
+    "doneInitialize": true,
+    "doneFactorize": true,
+    "ndim": 62,
+    "timeInitNs": 240729,
+    "timeFactNs": 363737,
+    "timeSolveNs": 275470,
+    "timeTotalNs": 879936,
+    "timeInitStr": "240.729µs",
+    "timeFactStr": "363.737µs",
+    "timeSolveStr": "275.47µs",
+    "timeTotalStr": "879.936µs"
+  },
+  "verify": {
+    "maxAbsA": 0.0001,
+    "maxAbsAx": 1.0000000000000007,
+    "maxAbsDiff": 6.661338147750939e-16,
+    "relativeError": 6.660672080542885e-16,
+    "timeCheckNs": 3818,
+    "timeCheckStr": "3.818µs"
+  }
+}
