@@ -22,6 +22,8 @@
     "pctIncWorkspace": 120,
     "maxWorkMemory": 30000,
     "openmpNumThreads": 3,
+    "usedOrdering": "Metis",
+    "usedScaling": "Auto",
     "doneInitialize": true,
     "doneFactorize": true,
     "ndim": 659033,
