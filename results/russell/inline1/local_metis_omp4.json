@@ -3,8 +3,8 @@
   "blasLib": "OpenBLAS",
   "matrixName": "inline1",
   "read": {
-    "timeReadNs": 2964208371,
-    "timeReadStr": "2.964208371s"
+    "timeReadNs": 2961876916,
+    "timeReadStr": "2.961876916s"
   },
   "triplet": {
     "nrow": 503712,
@@ -21,27 +21,27 @@
     "scaling": "Auto",
     "pctIncWorkspace": 100,
     "maxWorkMemory": 0,
-    "openmpNumThreads": 2,
+    "openmpNumThreads": 4,
     "usedOrdering": "Metis",
     "usedScaling": "RowColIter",
     "doneInitialize": true,
     "doneFactorize": true,
     "ndim": 503712,
-    "timeInitNs": 3472075705,
-    "timeFactNs": 5737943274,
-    "timeSolveNs": 371552621,
-    "timeTotalNs": 9581571600,
-    "timeInitStr": "3.472075705s",
-    "timeFactStr": "5.737943274s",
-    "timeSolveStr": "371.552621ms",
-    "timeTotalStr": "9.5815716s"
+    "timeInitNs": 3478883659,
+    "timeFactNs": 5463717399,
+    "timeSolveNs": 377388653,
+    "timeTotalNs": 9319989711,
+    "timeInitStr": "3.478883659s",
+    "timeFactStr": "5.463717399s",
+    "timeSolveStr": "377.388653ms",
+    "timeTotalStr": "9.319989711s"
   },
   "verify": {
     "maxAbsA": 114603634.39860716,
     "maxAbsAx": 1.0000003203749657,
     "maxAbsDiff": 4.1725911614776123e-7,
     "relativeError": 3.640889005802275e-15,
-    "timeCheckNs": 61237255,
-    "timeCheckStr": "61.237255ms"
+    "timeCheckNs": 60793036,
+    "timeCheckStr": "60.793036ms"
   }
 }
